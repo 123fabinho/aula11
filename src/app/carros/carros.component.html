@@ -1,0 +1,17 @@
+<div class="container">
+    <h1> lista de carros</h1>
+
+      <div class="card" *ngFor="let carros of carros">
+         <div class="card-header">
+      {{carros.marca}}
+    </div>
+
+    <div class="card-body" style="padding: 20px;">
+         
+          <h5 class="card-title">{{carros.modelo}}</h5>
+          <p class="card-text">{{carros.ano}}</p>
+               <p class="card-text">{{carros.preco}}</p>
+
+    </div>
+    </div>
+    </div>
